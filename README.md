@@ -1,3 +1,4 @@
+```bash
 # create conda env
 conda create -n torch python=3.6
 
@@ -12,3 +13,4 @@ conda install cuda80 -c soumith
 
 # test gpu install
 python -c 'import torch; print(torch.rand(2,3).cuda())'
+```
