@@ -1,4 +1,6 @@
 # Pytorch GPU install instructions    
+At the end of these instructions you will have:   
+1. A fully working conda environment running pytorch on GPUs
 
 ```bash
 # create conda env
