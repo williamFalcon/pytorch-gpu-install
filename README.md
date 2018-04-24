@@ -9,8 +9,8 @@ conda create -n torch python=3.6
 # install numpy
 pip install numpy
 
-# install torch
-conda install pytorch torchvision -c pytorch
+# install torch (cuda 9)
+conda install pytorch torchvision cuda90 -c pytorch
 
 # install cuda 8 (Cuda 9 not yet supported ny pytorch)    
 conda install cuda80 -c soumith
