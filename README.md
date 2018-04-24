@@ -12,7 +12,8 @@ pip install numpy
 # install torch (cuda 9)
 conda install pytorch torchvision cuda90 -c pytorch
 
-# install cuda 8 (Cuda 9 not yet supported ny pytorch)    
+# if cuda 9 fails, install this way using cuda 8 
+conda install pytorch torchvision -c pytorch
 conda install cuda80 -c soumith
 
 # test gpu install
